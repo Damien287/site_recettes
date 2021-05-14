@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Gateau au chocolat</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="recette.css"/>
-    </head>
-    <body>
-        <div class="contenu">
-
-            <div class="centre categorie">
-                <p class="categorie">Recette</p>
-            </div>
-
-            <h1>Gateau au chocolat</h1>
-
-            <div class="separateur"></div>
-
-            <!-- Mon commentaire HTML -->
-            <div class="centre">
-                <p class="description">"Cette recette facile du gateau au chocolat est un grand classique qui fera plaisir à vos enfants."</p>
-            </div>
-
-            <div class="info">
-                <img class="centre info" src="https://jonathanroux.com/gateau.jpg?id=9998">
-
-                <table class="info">
-                    <tr>
-                        <th>Difficulté</th>
-                        <th>Préparation</th>
-                        <th>Cuisson</th>
-                        <th>Temps total</th>
-                    </tr>
-                    <tr>
-                        <td>facile</td>
-                        <td>10 min</td>
-                        <td>25 min</td>
-                        <td>35 min</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div>
-                <div class="colonne1 colonne">
-                    <h2>Ingrédients</h2>
-                    <div class="ingredients">
-                        <p>Chocolat noir: 200g</p>
-                        <p>Beurre: 200g</p>
-                        <p>Sucre: 150g</p>
-                        <p>Farine: 80g</p>
-                    </div>
-                </div>
-
-                <div class="colonne2 colonne">
-                    <h2>Préparation</h2>
-                    <table class="preparation">
-                        <tr><td><p class="numero">1</p></td><td class="preparation_etape">Faire fondre le chocolat avec le beurre</td></tr>
-                        <tr><td><p class="numero">2</p></td><td class="preparation_etape">Mélanger le sucre, les oeufs et la farine</td></tr>
-                        <tr><td><p class="numero">3</p></td><td class="preparation_etape">Mélanger le tout pour faire une pate</td></tr>
-                        <tr><td><p class="numero">4</p></td><td class="preparation_etape">Mettre au four.</td></tr>
-                    </table>
-                </div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damien Lefizelier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--COUVERTURE-->
+    <div class="cover">
+        <img class="cover-profil"src="site_pro.png"/>
+        <h1>Damien Lefizelier</h1>
+        <p>Développeur débutant</p>
+        <div style="text-align: center;">
+            <a class="butter" href="mailto:damien.lefizelier@orange.fr?subjet=Contact%depuis%jonathanroux.com">ME CONTACTER</a>
         </div>
-    </body>     
-</html>        
+        <div class="cover-contact">
+            <p><a href="mailto:damien.lefizelier@orange.fr?subjet=Contact%depuis%jonathanroux.com">damien.lefizelier@orange.fr</a></p>
+            <p><a href="tel:+33622040621">06 22 04 06 21</a></p>
+        </div> 
+
+
+  
+    </div>
+
+    <!--SECTION GRISE 1-->
+
+    <div class="section section-grise1">
+        <div class="trait"></div>
+        <p>Je  dévelloppe <b>votre Projet WEB</b> ou vos <b>Applications mobiles</b> iOS/Android de A à Z</p>
+    </div>
+    <!--SECTION BLANCHE-->
+
+    <div class="section" >
+        <h2>En savoir plus sur mon profil</h2>
+        <img src="profil2dam.jpg" class="col-contenu"/>
+        <div class="col-contenu float-right" style=" box-sizing: border-box;">
+            <div class="text-avec-ligne-verticale">
+                <p>Débutant dans la programmage, je cherche à acquérir des connaissances<b> en WEB </b>tout d'abord en code Python.<br><br>Etant sans emploi, je recherche une nouvelle voie de reconversion.</p>
+                <a  bref="https://www.linkedin.com/in/damien-lefizelier">en savoir plus sur mon profil</a>
+            </div>
+        </div>   
+    </div>
+
+    <!--SECTION GRISE 2-->
+    
+        <div class="section section-grise2">
+            <h2>Portfolio</h2>
+            <table class="col-porfolio" style="display: inline-block" >
+                <tr>
+                    <td><div class="barre-verticale"></div></td>
+                    <td><a href="porfolio-site-restaurant.html">Site web pour un restaurant<img style="width: 100%"; src="project1small.jpg"></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><a href="porfolio-site-restaurant.html">Site web pour un restaurant</a></td>
+                </tr>
+            
+            </table>  
+            <table class="col-porfolio float-right">
+            
+                <tr>
+                    <td><div class="barre-verticale"></div></td>
+                    <td><img style="width: 100%;" src="project2small.jpg"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><a bref="#">Application mobile<br> "intelligence artificielle"</a></td>
+                </tr>
+            
+            </table>  
+        </div>  
+    
+
+    <!--SECTION BLANCHE-->
+
+    <iframe src="contact-frame.html"scrolling="no"/>
+    
+
+</body>
+</html>
